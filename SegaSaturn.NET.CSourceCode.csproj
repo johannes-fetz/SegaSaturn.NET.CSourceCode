@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;net462;netcoreapp3.1</TargetFrameworks>
+		<Company></Company>
+		<Version>1.0.0</Version>
+		<Authors>Johannes Fetz</Authors>
+		<PackageDescription>Sega Saturn to C source file exporter in .Net</PackageDescription>
+		<RepositoryUrl>https://github.com/johannes-fetz/SegaSaturn.NET.CSourceCode</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="SegaSaturn.NET" Version="1.0.0" />
+	</ItemGroup>
+
+</Project>
